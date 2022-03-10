@@ -1,0 +1,384 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: illia Zamani, Linkap, LIC=47GU5-GU3YP-Y8KFK-Z8FGZ-Y8SHA-PLFD7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\Reza Safari\I-CUBE-lrwan-on-stm32l011\en.i-cube_lrwan_v2.1.0\STM32CubeExpansion_LRWAN_V2.1.0\Projects\NUCLEO-L053R8\Applications\SubGHz_Phy\SubGHz_Phy_PingPong\MDK-ARM\SubGHz_Phy_PingPong.uvprojx
+Project File Date:  03/10/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'sx1276mb1mas'
+compiling app_subghz_phy.c...
+compiling rtc.c...
+compiling dma.c...
+compiling main.c...
+compiling stm32_lpm_if.c...
+compiling subghz_phy_app.c...
+compiling rtc_if.c...
+compiling stm32l0xx_hal_msp.c...
+compiling sys_debug.c...
+compiling stm32l0xx_it.c...
+compiling sys_app.c...
+compiling usart.c...
+compiling usart_if.c...
+assembling startup_stm32l011xx.s...
+compiling nucleo_l053r8_bus.c...
+compiling system_stm32l0xx.c...
+compiling stm32l0xx_hal_adc_ex.c...
+compiling stm32l0xx_hal_adc.c...
+compiling stm32l0xx_nucleo.c...
+compiling sx1276mb1mas.c...
+compiling stm32l0xx_hal.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_exti.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_rtc.c...
+compiling stm32l0xx_hal_rtc_ex.c...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling stm32l0xx_hal_spi.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_hal_uart_ex.c...
+compiling stm32_adv_trace.c...
+compiling stm32_mem.c...
+compiling stm32_lpm.c...
+compiling stm32l0xx_hal_tim.c...
+compiling stm32_seq.c...
+compiling stm32l0xx_hal_uart.c...
+compiling sx1276.c...
+compiling stm32_systime.c...
+compiling stm32_tiny_vsnprintf.c...
+compiling stm32_timer.c...
+linking...
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_IoInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_SetAlarm_IT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276Send).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.PingPong_Process).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rcc_ex.o(.text.HAL_RCCEx_PeriphCLKConfig).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.text.HAL_UART_MspInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276GetTimeOnAir).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.OnRxDone).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.bss.BufferTx).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.bss.BufferRx).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_SetTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276OnDio1Irq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_gpio.o(.text.HAL_GPIO_DeInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.text.UTIL_SEQ_Run).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.SystemApp_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_spi.o(.text.SPI_WaitFlagStateUntilTimeout).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_spi.o(.text.HAL_SPI_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_SetDate).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_AdvFeatureConfig).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276OnTimeoutIrq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc.o(.text.MX_RTC_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.rodata.FskBandwidths).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.UTIL_ADV_TRACE_COND_FSend).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_GetCalendarValue).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276OnDio2Irq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.HAL_DMA_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.HAL_UART_Transmit_DMA).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_IoDeInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_DeactivateAlarm).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.TRACE_TxCpltCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.HAL_DMA_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.SystemClock_Config).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.RxChainCalibration).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_WaitOnFlagUntilTimeout).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_IRQ_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_Start_Receive_IT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.TRACE_AllocateBufer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.TRACE_Send).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.bss.huart2).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart_ex.o(.text.HAL_UARTEx_StopModeWakeUpSourceConfig).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetTxContinuousWave).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetOpMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.bss.TaskCb).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching nucleo_l053r8_bus.o(.text.BSP_SPI1_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_Start).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching llmul.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_RxISR_8BIT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_RxISR_16BIT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rcc.o(.text.HAL_RCC_GetSysClockFreq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_Stop).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_IoIrqInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.rodata.Radio).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.HAL_UART_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_spi.o(.text.SPI_EndRxTxTransaction).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_CheckIdleState).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.HAL_UART_Receive_IT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276IsChannelFree).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.bss.SX1276).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.HAL_DMA_DeInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_AlarmIRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc.o(.text.HAL_RTC_MspInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_GetTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching uldiv.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.HAL_DMA_Start_IT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching nucleo_l053r8_bus.o(.text.MX_SPI1_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_pwr.o(.text.HAL_PWR_EnterSTOPMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32l011xx.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching nucleo_l053r8_bus.o(.bss.hspi1).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_pwr.o(.text.HAL_PWR_EnterSLEEPMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetModem).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_GetDate).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_DMAError).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276OnDio3Irq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32l0xx.o(.text.SystemInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.text.PWR_ExitStopMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.bss..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.bss.hdma_usart2_tx).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.text.vcom_ReceiveInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.HAL_DMA_Abort_IT).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_Reset).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.bss..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm.o(.text.UTIL_LPM_EnterLowPower).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_systime.o(.text.SysTimeGet).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.rodata.str1.1).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.bss..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_debug.o(.text.DBG_Disable).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.rodata.cst16).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_cortex.o(.text.__NVIC_SetPriority).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.HAL_DMA_Abort).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276ReadRssi).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276Random).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.text.HAL_UART_MspDeInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.text.SEQ_BitPosition).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_Create).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.OnTxTimeout).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.RTC_EnterInitMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetSleep).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_SetPeriod).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.OnTxDone).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.OnRxTimeout).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.OnRxError).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.text.MX_USART2_UART_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.HAL_RTC_WaitForSynchro).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276StartCad).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.UTIL_ADV_TRACE_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.TimerSetTimeout).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc_ex.o(.text.HAL_RTCEx_EnableBypassShadow).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276ReadBuffer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_msp.o(.text.HAL_MspInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_SetAntSw).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetChannel).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetStby).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276WriteBuffer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetMaxPayloadLength).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276ConvertFreqInHzToPllStep).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.rodata.RadioRegsInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm.o(.text.UTIL_LPM_SetStopMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm.o(.text.UTIL_LPM_SetOffMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_systime.o(.text.SysTimeAdd).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_DMATransmitCplt).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_EndRxTransfer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching dma.o(.text.MX_DMA_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.rodata.UTIL_TimerDriver).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.text.PWR_EnterStopMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.text.vcom_DeInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.text.HAL_UART_RxCpltCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching uidiv.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_dma.o(.text.DMA_SetConfig).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_DelayMs).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.tiny_snprintf_like).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_debug.o(.text.DBG_ConfigForLpm).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching nucleo_l053r8_bus.o(.text.BSP_SPI1_SendRecv).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.text.HAL_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276SetPublicNetwork).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.GetFskBandwidthRegValue).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm.o(.text.UTIL_LPM_GetMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.text.UTIL_SEQ_SetTask).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching idiv.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.TimestampNow).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc.o(.text.RTC_ByteToBcd2).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc.o(.bss.hrtc).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_StopTimer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_GetTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_exti.o(.text.HAL_EXTI_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.text.UTIL_SEQ_RegTask).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.TimerInsertTimer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching memcpya.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching memseta.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart_ex.o(.text.HAL_UARTEx_EnableStopMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching llushr.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_GetTimerValue).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.EXTI4_15_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching nucleo_l053r8_bus.o(.rodata.cst32).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.bss.hRADIO_DIO_exti).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_cortex.o(.text.HAL_NVIC_DisableIRQ).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rcc.o(.text.HAL_RCC_GetPCLK1Freq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rcc.o(.text.HAL_RCC_GetPCLK2Freq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.bss..L_MergedGlobals.2).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_GetElapsedTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching llshl.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.TRACE_Lock).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.TRACE_UnLock).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.TimerExists).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.TimerInsertNewHeadTimer).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_SetTimerContext).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_GetTimerElapsedTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.rodata.UTIL_PowerDriver).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.text.vcom_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_ChipSelect).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.text.HAL_IncTick).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_cortex.o(.text.HAL_NVIC_EnableIRQ).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276OnDio4Irq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.data.DioIrq).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.bss.ADV_TRACE_Ctx).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_SendRecv).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_DMAAbortOnError).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_Convert_Tick2ms).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_BkUp_Write_Seconds).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_BkUp_Write_SubSeconds).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.rodata.UTIL_SYSTIMDriver).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.text.vcom_Trace_DMA).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_GetPaSelect).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_pwr_ex.o(.text.HAL_PWREx_EnableFastWakeUp).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_pwr_ex.o(.text.HAL_PWREx_EnableUltraLowPower).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.text.UTIL_TIMER_GetCurrentTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.main).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_Convert_ms2Tick).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_mem.o(.text.UTIL_MEM_cpy_8).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.text.OnledEvent).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_BkUp_Read_Seconds).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_BkUp_Read_SubSeconds).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.EXTI2_3_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.DMA1_Channel4_5_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.USART2_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.RTC_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.text.HAL_UART_TxCpltCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.rodata.UTIL_TraceDriver).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_GetDio1PinState).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32l0xx.o(.rodata.AHBPrescTable).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.text.HAL_DBGMCU_DisableDBGSleepMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.text.HAL_DBGMCU_DisableDBGStopMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.text.HAL_DBGMCU_DisableDBGStandbyMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_pwr.o(.text.HAL_PWR_DisablePVD).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276Write).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276Read).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm.o(.text.UTIL_LPM_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.rodata.cst16).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_exti.o(.text.HAL_EXTI_RegisterCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_exti.o(.text.HAL_EXTI_GetHandle).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_gpio.o(.text.HAL_GPIO_WritePin).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276WriteFifo).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276ReadFifo).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_mem.o(.text.UTIL_MEM_set_8).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching strlen.o(.text).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching app_subghz_phy.o(.text.MX_SubGHz_Phy_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching app_subghz_phy.o(.text.MX_SubGHz_Phy_Process).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_GetTimerContext).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.text.PWR_EnterSleepMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.UTIL_ADV_TRACE_PreSendHook).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.UTIL_ADV_TRACE_PostSendHook).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.HAL_Delay).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276GetStatus).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.UTIL_ADV_TRACE_RegisterTimeStampFunction).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_adv_trace.o(.text.UTIL_ADV_TRACE_SetVerboseLevel).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_gpio.o(.text.HAL_GPIO_ReadPin).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc_ex.o(.text.HAL_RTCEx_BKUPWrite).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc_ex.o(.text.HAL_RTCEx_BKUPRead).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.UART_DMATxHalfCplt).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276.o(.text.SX1276GetWakeupTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32l0xx.o(.rodata.PLLMulTable).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text.Error_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.HAL_RTC_AlarmAEventCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.SysTick_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.UTIL_SEQ_Idle).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.HAL_GetTick).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.bss..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_Bus_Init).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.rodata.cst8).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32l0xx.o(.rodata.APBPrescTable).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.data..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_cortex.o(.text.HAL_NVIC_SetPriority).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm.o(.bss..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.data..L_MergedGlobals).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_tiny_vsnprintf.o(.rodata.str1.1).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_spi.o(.text.HAL_SPI_GetState).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.text.RTC_IF_GetMinimumTimeout).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_app.o(.text.HAL_InitTick).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart_if.o(.bss.TxCpltCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_GetWakeUpTime).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_CheckRfFrequency).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32l0xx.o(.data.SystemCoreClock).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal.o(.bss.uwTick).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_timer.o(.bss.TimerListHead).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.text.PWR_ExitSleepMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.text.PWR_EnterOffMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_lpm_if.o(.text.PWR_ExitOffMode).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.NMI_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.HardFault_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.SVC_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.PendSV_Handler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_it.o(.text.EXTI0_1_IRQHandler).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_debug.o(.text.DBG_ProbesInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching sx1276mb1mas.o(.text.SX1276MB1MAS_RADIO_SetXO).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_rtc_ex.o(.text.HAL_RTCEx_AlarmBEventCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_spi.o(.text.HAL_SPI_MspInit).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.HAL_UART_ErrorCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.HAL_UARTEx_RxEventCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart.o(.text.HAL_UART_TxHalfCpltCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32l0xx_hal_uart_ex.o(.text.HAL_UARTEx_WakeupCallback).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.text.UTIL_SEQ_PreIdle).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32_seq.o(.text.UTIL_SEQ_PostIdle).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching subghz_phy_app.o(.data.isMaster).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtc_if.o(.bss.RTC_Initalized).
+sx1276mb1mas\Exe\sx1276mb1mas.axf: Error: L6407E: Sections of aggregate size 0x4620 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 278 error messages.
+"sx1276mb1mas\Exe\sx1276mb1mas.axf" - 278 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L0xx_DFP.2.2.0.pack
+                Keil.STM32L0xx_DFP.2.2.0
+                STMicroelectronics STM32L0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_sx1276mb1mas
+  C:\Users\IDG\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\IDG\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Target not created.
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

@@ -72,7 +72,8 @@ void Error_Handler(void);
 /* Definition for USARTx's DMA Request */
 #define USARTx_TX_DMA_REQUEST             DMA_REQUEST_4
 /* Definition for USARTx's DMA */
-#define USARTx_TX_DMA_CHANNEL             DMA1_Channel7
+//added by dev0
+#define USARTx_TX_DMA_CHANNEL             DMA1_Channel4//DMA1_Channel7
 
 /* Definition for USARTx's NVIC */
 #define USARTx_DMA_TX_IRQn                DMA1_Channel4_5_6_7_IRQn

@@ -1,0 +1,1593 @@
+Dependencies for Project 'SubGHz_Phy_PingPong', Target 'sx1276mb1mas': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (../SubGHz_Phy/App/app_subghz_phy.c)(0x610AB02C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/app_subghz_phy.o -MD)
+I (..\SubGHz_Phy\App\app_subghz_phy.h)(0x610AB02C)
+I (..\SubGHz_Phy\App\subghz_phy_app.h)(0x610AB02C)
+I (..\Core\Inc\sys_app.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Utilities\sequencer\stm32_seq.h)(0x610AB044)
+F (../SubGHz_Phy/App/subghz_phy_app.c)(0x610AB02C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/subghz_phy_app.o -MD)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\Core\Inc\sys_app.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\App\subghz_phy_app.h)(0x610AB02C)
+I (..\..\..\..\..\..\Middlewares\Third_Party\SubGHz_Phy\radio.h)(0x610AB01A)
+I (..\SubGHz_Phy\App\app_version.h)(0x610AB02C)
+I (..\..\..\..\..\..\Utilities\timer\stm32_timer.h)(0x610AB046)
+I (..\..\..\..\..\..\Utilities\sequencer\stm32_seq.h)(0x610AB044)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+F (../Core/Src/dma.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/dma.o -MD)
+I (..\Core\Inc\dma.h)(0x610AAFE4)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../Core/Src/main.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/main.o -MD)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\SubGHz_Phy\App\app_subghz_phy.h)(0x610AB02C)
+F (../Core/Src/rtc.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/rtc.o -MD)
+I (..\Core\Inc\rtc.h)(0x610AAFE4)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../Core/Src/rtc_if.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/rtc_if.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED64B2C)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\Core\Inc\rtc.h)(0x610AAFE4)
+I (..\Core\Inc\rtc_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\timer\stm32_timer.h)(0x610AB046)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Utilities\misc\stm32_systime.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Utilities\lpm\tiny_lpm\stm32_lpm.h)(0x610AB040)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rtc.h)(0x610AB007)
+F (../Core/Src/stm32_lpm_if.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_lpm_if.o -MD)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\Core\Inc\stm32_lpm_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\lpm\tiny_lpm\stm32_lpm.h)(0x610AB040)
+I (..\Core\Inc\usart_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\Core\Inc\usart.h)(0x610AAFE4)
+I (..\Core\Inc\dma.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\radio_board_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\BSP\sx1276mb1mas\sx1276mb1mas.h)(0x610AAFE3)
+I (..\SubGHz_Phy\Target\sx1276mb1mas_conf.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\radio_conf.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\mw_log_conf.h)(0x610AAFE4)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+F (../Core/Src/stm32l0xx_hal_msp.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_msp.o -MD)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+F (../Core/Src/stm32l0xx_it.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_it.o -MD)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_it.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\radio_board_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\BSP\sx1276mb1mas\sx1276mb1mas.h)(0x610AAFE3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\Target\sx1276mb1mas_conf.h)(0x610AAFE4)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\radio_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\Target\mw_log_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+F (../Core/Src/sys_app.c)(0x622A2E22)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/sys_app.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED64B2C)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\Core\Inc\sys_app.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\Target\radio_board_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\BSP\sx1276mb1mas\sx1276mb1mas.h)(0x610AAFE3)
+I (..\SubGHz_Phy\Target\sx1276mb1mas_conf.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\radio_conf.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\mw_log_conf.h)(0x610AAFE4)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\sequencer\stm32_seq.h)(0x610AB044)
+I (..\..\..\..\..\..\Utilities\misc\stm32_systime.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Utilities\lpm\tiny_lpm\stm32_lpm.h)(0x610AB040)
+I (..\Core\Inc\rtc_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\timer\stm32_timer.h)(0x610AB046)
+F (../Core/Src/sys_debug.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/sys_debug.o -MD)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+F (../Core/Src/usart.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/usart.o -MD)
+I (..\Core\Inc\usart.h)(0x610AAFE4)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\Core\Inc\dma.h)(0x610AAFE4)
+F (../Core/Src/usart_if.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/usart_if.o -MD)
+I (..\Core\Inc\usart_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\Core\Inc\usart.h)(0x610AAFE4)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\Core\Inc\dma.h)(0x610AAFE4)
+F (C:\Users\IDG\Downloads\Compressed\en.stm32cubel0_v1-12-0_v1.12.0\STM32Cube_FW_L0_V1.12.0\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l011xx.s)(0x5FA16DB7)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1"-I.\RTE\_sx1276mb1mas-IC:\Users\IDG\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\IDG\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include--pd "__UVISION_VERSION SETA 531"--pd "_RTE_ SETA 1"--pd "STM32L011xx SETA 1"--pd "_RTE_ SETA 1"--list startup_stm32l011xx.lst--xref -o sx1276mb1mas\exe\startup_stm32l011xx.o--depend sx1276mb1mas\exe\startup_stm32l011xx.d)
+F (../SubGHz_Phy/Target/nucleo_l053r8_bus.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/nucleo_l053r8_bus.o -MD)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_errno.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../readme.txt)(0x610AAFE4)()
+F (../../../../../../Drivers/BSP/STM32L0xx_Nucleo/stm32l0xx_nucleo.c)(0x610AAFE8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_nucleo.o -MD)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/BSP/SX1261DVK1BAS/sx1261dvk1bas.c)(0x610AAFE3)()
+F (../../../../../../Drivers/BSP/SX1262DVK1CAS/sx1262dvk1cas.c)(0x610AAFE3)()
+F (../../../../../../Drivers/BSP/SX1262DVK1DAS/sx1262dvk1das.c)(0x610AAFE3)()
+F (../../../../../../Drivers/BSP/sx1272mb2das/sx1272mb2das.c)(0x610AAFE3)()
+F (../../../../../../Drivers/BSP/sx1276mb1las/sx1276mb1las.c)(0x610AAFE3)()
+F (../../../../../../Drivers/BSP/sx1276mb1mas/sx1276mb1mas.c)(0x610AAFE3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/sx1276mb1mas.o -MD)
+I (..\..\..\..\..\..\Drivers\BSP\sx1276mb1mas\sx1276mb1mas.h)(0x610AAFE3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\Target\sx1276mb1mas_conf.h)(0x610AAFE4)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\radio_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\SubGHz_Phy\Target\mw_log_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\SubGHz_Phy\Target\radio_board_if.h)(0x610AAFE4)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+F (../Core/Src/system_stm32l0xx.c)(0x610AAFE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/system_stm32l0xx.o -MD)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_adc.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_adc_ex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_cortex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_dma.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_exti.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_gpio.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_i2c.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_pwr.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_pwr_ex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_rcc.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_rcc_ex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_rtc.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_rtc_ex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_spi.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_tim.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_tim_ex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_uart.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c)(0x610AB007)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32l0xx_hal_uart_ex.o -MD)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+F (../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx126x/radio.c)(0x610AB01A)()
+F (../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx126x/sx126x.c)(0x610AB01A)()
+F (../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1272/sx1272.c)(0x610AB01A)()
+F (../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.c)(0x610AB01A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/sx1276.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\Core\Inc\sys_debug.h)(0x610AAFE4)
+I (..\Core\Inc\sys_conf.h)(0x610AAFE4)
+I (..\Core\Inc\platform.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l011xx.h)(0x610AAFFE)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x610AAFFE)
+I (..\Core\Inc\main.h)(0x622A2E17)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x610AB007)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x622A2979)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x610AB007)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x610AB007)
+I (..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\stm32l0xx_nucleo.h)(0x610AAFE8)
+I (..\SubGHz_Phy\Target\nucleo_l053r8_bus.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\timer.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\timer\stm32_timer.h)(0x610AB046)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Middlewares\Third_Party\SubGHz_Phy\radio.h)(0x610AB01A)
+I (..\..\..\..\..\..\Middlewares\Third_Party\SubGHz_Phy\sx1276\sx1276.h)(0x610AB01A)
+I (..\..\..\..\..\..\Middlewares\Third_Party\SubGHz_Phy\sx1276\sx1276Regs-Fsk.h)(0x610AB01A)
+I (..\..\..\..\..\..\Middlewares\Third_Party\SubGHz_Phy\sx1276\sx1276Regs-LoRa.h)(0x610AB01A)
+I (..\SubGHz_Phy\Target\radio_conf.h)(0x610AAFE4)
+I (..\SubGHz_Phy\Target\mw_log_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (..\SubGHz_Phy\Target\radio_board_if.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\BSP\sx1276mb1mas\sx1276mb1mas.h)(0x610AAFE3)
+I (..\SubGHz_Phy\Target\sx1276mb1mas_conf.h)(0x610AAFE4)
+I (..\Core\Inc\utilities_def.h)(0x610AAFE4)
+F (../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.c)(0x610AB048)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_adv_trace.o -MD)
+I (..\..\..\..\..\..\Utilities\trace\adv_trace\stm32_adv_trace.h)(0x610AB048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED64B2C)
+F (../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.c)(0x610AB040)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_lpm.o -MD)
+I (..\..\..\..\..\..\Utilities\lpm\tiny_lpm\stm32_lpm.h)(0x610AB040)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+F (../../../../../../Utilities/misc/stm32_mem.c)(0x610AB042)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_mem.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+F (../../../../../../Utilities/sequencer/stm32_seq.c)(0x610AB044)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_seq.o -MD)
+I (..\..\..\..\..\..\Utilities\sequencer\stm32_seq.h)(0x610AB044)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+F (../../../../../../Utilities/misc/stm32_systime.c)(0x610AB042)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_systime.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Utilities\misc\stm32_systime.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x5ED64B2C)
+F (../../../../../../Utilities/timer/stm32_timer.c)(0x610AB046)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_timer.o -MD)
+I (..\..\..\..\..\..\Utilities\timer\stm32_timer.h)(0x610AB046)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED64B2C)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x610AAFF4)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x610AAFF4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D0234)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0260)
+I (..\Core\Inc\utilities_conf.h)(0x610AAFE4)
+I (..\..\..\..\..\..\Utilities\misc\stm32_mem.h)(0x610AB042)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
+F (../../../../../../Utilities/misc/stm32_tiny_vsnprintf.c)(0x610AB042)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../SubGHz_Phy/App -I ../SubGHz_Phy/Target -I ../Core/Inc -I ../../../../../../Utilities/misc -I ../../../../../../Utilities/timer -I ../../../../../../Utilities/trace/adv_trace -I ../../../../../../Utilities/lpm/tiny_lpm -I ../../../../../../Utilities/sequencer -I ../../../../../../Drivers/BSP/STM32L0xx_Nucleo -I ../../../../../../Drivers/BSP/sx1276mb1mas -I ../../../../../../Drivers/STM32L0xx_HAL_Driver/Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy -I ../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276 -I C:/Users/IDG/Downloads/Compressed/en.stm32cubel0_v1-12-0_v1.12.0/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-I./RTE/_sx1276mb1mas-IC:/Users/IDG/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/IDG/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L011xx -D_RTE_ -DSTM32L011xx -DSX1276MB1MAS-o sx1276mb1mas/exe/stm32_tiny_vsnprintf.o -MD)
+I (..\..\..\..\..\..\Utilities\misc\stm32_tiny_vsnprintf.h)(0x610AB042)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5ED64B2C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED64B2C)
